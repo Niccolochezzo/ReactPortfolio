@@ -1,0 +1,64 @@
+.about {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+
+.leftAbout {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 10vw;
+}
+
+.titleAbout {
+  font-size: 4rem;
+}
+
+.underlineAbout {
+  width: 100%;
+  height: 3px;
+  background: #201f22;
+  margin-top: -20px;
+}
+
+.paraAbout {
+  width: 75%;
+  font-size: 1.1rem;
+}
+
+.rightAbout {
+  width: 580px;
+  padding-left: 50px;
+}
+
+.image > img {
+  margin-top: -200px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 50px;
+}
+
+.leftAbout > a {
+  color: #221f20;
+  width: max-content;
+  font-size: 1.3rem;
+}
+
+.leftAbout > a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background: #201f22;
+  transition: width 0.3s ease;
+  -webkit-transition: width 0.3s ease;
+  margin-top: 2px;
+}
+
+.leftAbout > a:hover::after {
+  width: 100%;
+}

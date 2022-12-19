@@ -6,69 +6,59 @@ import { motion } from "framer-motion";
 const HeroTwo = () => {
   return (
     <div className="secondHero">
-      <motion.h1
-        initial={{ x: -20, opacity: 0 }}
-        animate={{ x: 0, opacity: 1 }}
-        transition={{ delay: 0.2, duration: 0.8 }}
-      >
-        Hi, I'm <span>Niko</span>
-      </motion.h1>
-      <div className="para">
-        <div className="paras">
-          <motion.p
-            initial={{ x: -20, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ delay: 0.4, duration: 0.5 }}
-          >
-            Frontend developer and Graphic designer.
-          </motion.p>
-        </div>
-        <div className="paras">
-          <motion.p
-            initial={{ x: -20, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ delay: 0.5, duration: 0.5 }}
-          >
-            currently based in Batumi, Georgia
-          </motion.p>
-        </div>
-        <div className="paras">
-          <motion.p
-            initial={{ x: -20, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ delay: 0.6, duration: 0.5 }}
-          >
-            In my current role, I am responsible for designing, developing,
-          </motion.p>
-        </div>
-        <div className="paras">
-          <motion.p
-            initial={{ x: -20, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ delay: 0.7, duration: 0.5 }}
-          >
-            and maintaining a variety of web-based applications.
-          </motion.p>
-        </div>
-        <div className="paras">
-          <motion.p
-            initial={{ x: -20, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ delay: 0.8, duration: 0.5 }}
-          >
-            I enjoy working collaboratively with cross-functional teams to bring
-            projects to life.
-          </motion.p>
-        </div>
+      <div className="menuItems">
+        <motion.h1
+          className="heroTitle"
+          initial={{ x: -20, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ delay: 0.2, duration: 0.5 }}
+        >
+          <span>Hey, I'm Niko Cherkezishvili</span>
+        </motion.h1>
+        <motion.h1
+          className="heroTitle clone"
+          initial={{ x: -20, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ delay: 0.2, duration: 0.8 }}
+        >
+          <span>Niko Cherkezishvili</span>
+        </motion.h1>
       </div>
-      <motion.div
-        initial={{ x: -200, scale: 0 }}
-        animate={{ x: 0, scale: 1 }}
-        transition={{ delay: 1.8, duration: 0.1 }}
-        className="callToAction"
-      >
-        <NavLink to="/projects">See my work</NavLink>
-      </motion.div>
+
+      <div className="paras">
+        <motion.p
+          initial={{ x: -20, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ delay: 0.5, duration: 0.5 }}
+        >
+          I’m a graphic designer, UX/UI designer
+        </motion.p>
+        <motion.p
+          initial={{ x: -20, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ delay: 0.7, duration: 0.5 }}
+        >
+          & front-end web developer
+        </motion.p>
+      </div>
+      <div className="heroLinkButtons">
+        <motion.div
+          initial={{ y: 50, scale: 0 }}
+          animate={{ y: 0, scale: 1 }}
+          transition={{ delay: 1.3, duration: 0.1 }}
+          className="callToAction"
+        >
+          <NavLink to="/projects">→ see my rojects</NavLink>
+        </motion.div>
+        <motion.div
+          initial={{ y: 50, scale: 0 }}
+          animate={{ y: 0, scale: 1 }}
+          transition={{ delay: 1.5, duration: 0.1 }}
+          className="callToAction"
+        >
+          <NavLink to="/about">→ more about me</NavLink>
+        </motion.div>
+      </div>
     </div>
   );
 };
