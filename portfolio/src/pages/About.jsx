@@ -35,15 +35,58 @@ const About = () => {
           projects to life. I’m always curious to learn more when it comes to
           new technologies and creative coding.
         </motion.p>
-        <motion.a
-          initial={{ y: 20, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 1, duration: 0.5 }}
-          href={nikko}
-          download
-        >
-          ↓ Resume
-        </motion.a>
+        <div className="underBioWrapper">
+          <motion.a
+            initial={{ y: 20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ delay: 1, duration: 0.5 }}
+            href={nikko}
+            download
+          >
+            ↓ Resume
+          </motion.a>
+          <ul className="aboutList">
+            <motion.li
+              initial={{ y: 20, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ delay: 1.4, duration: 0.5 }}
+            >
+              <a
+                href="https://github.com/Niccolochezzo"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+            </motion.li>
+            <motion.li
+              initial={{ y: 20, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ delay: 1.3, duration: 0.5 }}
+            >
+              <a
+                href="https://www.instagram.com/nikocherkezi/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Instagram
+              </a>
+            </motion.li>
+            <motion.li
+              initial={{ y: 20, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ delay: 1.2, duration: 0.5 }}
+            >
+              <a
+                href="https://www.facebook.com/profile.php?id=100075439963326"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Facebook
+              </a>
+            </motion.li>
+          </ul>
+        </div>
       </motion.div>
       <motion.div
         initial={{ y: -20, opacity: 0 }}

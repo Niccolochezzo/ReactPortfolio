@@ -6,11 +6,11 @@
 }
 
 .leftAbout {
-  width: 70%;
+  width: 75%;
   display: flex;
   flex-direction: column;
   gap: 15px;
-  padding-left: 10vw;
+  padding-left: 7vw;
 }
 
 .titleAbout {
@@ -42,13 +42,13 @@
   border-bottom-left-radius: 50px;
 }
 
-.leftAbout > a {
+.leftAbout a {
   color: #221f20;
   width: max-content;
   font-size: 1.3rem;
 }
 
-.leftAbout > a::after {
+.leftAbout a::after {
   content: "";
   display: block;
   width: 0;
@@ -59,6 +59,23 @@
   margin-top: 2px;
 }
 
-.leftAbout > a:hover::after {
+.leftAbout a:hover::after {
   width: 100%;
+}
+
+.aboutList {
+  align-self: flex-end;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.aboutList > li > a {
+  font-size: 1rem;
+}
+
+.underBioWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
 }
