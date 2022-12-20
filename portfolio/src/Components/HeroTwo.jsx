@@ -48,7 +48,7 @@ const HeroTwo = () => {
           transition={{ delay: 1.3, duration: 0.1 }}
           className="callToAction"
         >
-          <NavLink to="/projects">→ see my rojects</NavLink>
+          <NavLink to="/projects">→ see my projects</NavLink>
         </motion.div>
         <motion.div
           initial={{ y: 50, scale: 0 }}
