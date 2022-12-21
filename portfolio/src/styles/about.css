@@ -79,3 +79,14 @@
   align-items: center;
   margin-top: 10px;
 }
+
+.mail {
+  align-self: flex-end;
+  font-weight: 500;
+}
+
+.upperAbout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}

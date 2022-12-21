@@ -31,14 +31,14 @@ const HeroTwo = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.5 }}
         >
-          I’m a graphic designer, UX/UI designer
+          I’m a front-end web developer, graphic designer
         </motion.p>
         <motion.p
           initial={{ x: -20, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 0.7, duration: 0.5 }}
         >
-          & front-end web developer
+          & UX/UI designer
         </motion.p>
       </div>
       <div className="heroLinkButtons">
