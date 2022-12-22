@@ -23,7 +23,7 @@ const content = [
   {
     title: "todo app",
     url: four,
-    link: "https://todo-app-six-amber-98.vercel.app/",
+    link: "https://todo-app-niccolochezzo.vercel.app/",
   },
   {
     title: "memory game",
