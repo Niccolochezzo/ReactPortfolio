@@ -1,13 +1,13 @@
 import one from "./one.jpg";
 import two from "./two.jpg";
-import three from "./three.jpg";
+import eco from "./eco.jpg";
 import four from "./four.jpg";
 import five from "./five.jpg";
 
 const content = [
   {
-    title: "fullstack nextJS ecommerce",
-    url: three,
+    title: "fullstack ecommerce",
+    url: eco,
     link: "https://next-js-fullstack-ecommerce.vercel.app/",
   },
   {
