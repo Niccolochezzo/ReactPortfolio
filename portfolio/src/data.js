@@ -6,6 +6,11 @@ import five from "./five.jpg";
 
 const content = [
   {
+    title: "fullstack nextJS ecommerce",
+    url: three,
+    link: "https://next-js-fullstack-ecommerce.vercel.app/",
+  },
+  {
     title: "Dark gallery",
     url: one,
     link: "https://niccolochezzo.github.io/final-project/",
@@ -14,11 +19,6 @@ const content = [
     title: "Portfolio V2",
     url: two,
     link: "https://niccolochezzo.github.io/Portfolio/",
-  },
-  {
-    title: "skin-care",
-    url: three,
-    link: "https://playful-otter-e36480.netlify.app/",
   },
   {
     title: "todo app",
