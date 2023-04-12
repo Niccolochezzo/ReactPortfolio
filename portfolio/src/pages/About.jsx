@@ -35,13 +35,12 @@ const About = () => {
           transition={{ delay: 0.8, duration: 0.5 }}
           className="paraAbout"
         >
-          Hey, my name is Niko Cherkezishvili. I’m a front-end web developer,
-          graphic designer & UX/UI designer. currently based in Batumi, Georgia.
-          In my current role, I am responsible for designing, developing, and
-          maintaining a variety of web-based applications. I enjoy working
-          collaboratively with cross-functional teams to bring projects to life.
-          I’m always curious to learn more when it comes to new technologies and
-          creative coding.
+          Hey, my name is Niko Cherkezishvili. I’m a front-end web developer.
+          currently based in Batumi, Georgia. In my current role, I am
+          responsible for designing, developing, and maintaining a variety of
+          web-based applications. I enjoy working collaboratively with
+          cross-functional teams to bring projects to life. I’m always curious
+          to learn more when it comes to new technologies and creative coding.
         </motion.p>
         <div className="underBioWrapper">
           <motion.a

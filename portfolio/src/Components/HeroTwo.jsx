@@ -31,21 +31,14 @@ const HeroTwo = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.5 }}
         >
-          I’m a front-end web developer, graphic designer
-        </motion.p>
-        <motion.p
-          initial={{ x: -20, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{ delay: 0.7, duration: 0.5 }}
-        >
-          & UX/UI designer
+          I’m a front-end web developer
         </motion.p>
       </div>
       <div className="heroLinkButtons">
         <motion.div
           initial={{ y: 50, scale: 0 }}
           animate={{ y: 0, scale: 1 }}
-          transition={{ delay: 1.3, duration: 0.1 }}
+          transition={{ delay: 1, duration: 0.1 }}
           className="callToAction"
         >
           <NavLink to="/projects">→ see my projects</NavLink>
@@ -53,7 +46,7 @@ const HeroTwo = () => {
         <motion.div
           initial={{ y: 50, scale: 0 }}
           animate={{ y: 0, scale: 1 }}
-          transition={{ delay: 1.5, duration: 0.1 }}
+          transition={{ delay: 1.2, duration: 0.1 }}
           className="callToAction"
         >
           <NavLink to="/about">→ more about me</NavLink>

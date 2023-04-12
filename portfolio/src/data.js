@@ -1,7 +1,7 @@
 import one from "./one.jpg";
 import two from "./two.jpg";
 import eco from "./eco.jpg";
-import four from "./four.jpg";
+import blog from "./blog.png";
 import five from "./five.jpg";
 
 const content = [
@@ -9,6 +9,11 @@ const content = [
     title: "fullstack ecommerce",
     url: eco,
     link: "https://next-js-fullstack-ecommerce.vercel.app/",
+  },
+  {
+    title: "next.js fullstack blog",
+    url: blog,
+    link: "https://next-js-fullstack-blog.vercel.app/",
   },
   {
     title: "Dark gallery",
@@ -19,11 +24,6 @@ const content = [
     title: "Portfolio V2",
     url: two,
     link: "https://niccolochezzo.github.io/Portfolio/",
-  },
-  {
-    title: "todo app",
-    url: four,
-    link: "https://todo-app-niccolochezzo.vercel.app/",
   },
   {
     title: "memory game",
