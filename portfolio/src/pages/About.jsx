@@ -43,15 +43,6 @@ const About = () => {
           to learn more when it comes to new technologies and creative coding.
         </motion.p>
         <div className="underBioWrapper">
-          <motion.a
-            initial={{ y: 20, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ delay: 1, duration: 0.5 }}
-            href={nikko}
-            download
-          >
-            ↓ Download CV
-          </motion.a>
           <ul className="aboutList">
             <motion.li
               initial={{ y: 20, opacity: 0 }}
